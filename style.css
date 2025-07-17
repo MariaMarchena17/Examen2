@@ -2,6 +2,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(90deg, #1f63ae, #2a84e8);
 }
 
 .Encabezado {
@@ -42,7 +43,7 @@ body {
     outline: none;
     background-color: #f3f3f4;
     color: #0d0c22;
-    transition: .3s ease-in-out;
+    transition: .3s ease;
 }
 
 .input::placeholder {
@@ -53,4 +54,28 @@ body {
     border-color: rgba(21, 30, 2, 0.8);
     background-color: #fff;
     box-shadow: 0 0 0 4px rgb(21,30,2 / 10%);
+}
+
+.nav {
+    color: #f4f4f4;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #f4f4f4;
+    transition: all 0.3s ease;
+}
+
+.nav a:hover {
+    background-color: #154274;
+    transform: translateY(-0.7rem);
+    padding: 10px;
+    text-shadow: 0 0 10px #2a84e8;
+    border-radius: 8px;
 }
