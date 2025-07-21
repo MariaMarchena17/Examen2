@@ -23,8 +23,8 @@
     <nav class="nav">
         <a href="index.html"><span>Inicio</span></a> |
         <a href="#Quiénes somos"><span>Quiénes somos</span></a> |
-        <a href="#Producto"><span>Producto</span></a> |
-        <a href="#Donde estamos"><span>Donde estamos</span></a> |
+        <a href="productos.html"><span>Producto</span></a> |
+        <a href="Ubiquenos.html"><span>Donde estamos</span></a> |
         <a href="#Contáctenos"><span>Contáctenos</span></a>
     </nav>
     <hr>
@@ -85,15 +85,16 @@
                 </div>
             </div>
             <div class="form">
-                <form action="" method="post">
-                    <h3 class="titulo-2">Únete a nuestra lista de correo</h3>
+                <form action="formulario.php" method="post">
+                    <label for="titulo" class="titulo-2"><h3>Únete a nuestra lista de correo</h3></label>
                     <div class="menu-form">
                         <input type="text" class="name" placeholder="Nombre" required>
                         <br>
                         <input type="email" class="email" placeholder="example@gmail.com" required>
                         <br>
-                        <button class="btn-s">Suscríbete Ahora</button>
-                        <div class="checkbox-box"><input type="checkbox" name="Acepto" id="Acepto-politicas" class="Acepto-p" required><span class="texto-check">Acepto la política de privacidad</span></div>
+                        <input type="tel" inputmode="tel" class="number" placeholder="Numero de telefono" required>
+                        <input type="submit" class="btn-s">
+                        <div class="checkbox-box"><input type="checkbox" name="Acepto" id="Acepto-politicas" class="Acepto-p" required><label class="texto-check">Acepto la política de privacidad</label></div>
                     </div>
                 </form>
             </div>
@@ -154,7 +155,7 @@
             </div>
         </div>
         <div class="autor">
-            <a href="#"><p>Copyright / derecho de autor © 2019 Metrokilos.com</p></a>
+            <a href="#"><p>Copyright / derecho de autor © 2025 Metrokilos.com</p></a>
         </div>
     </footer>
 </body>

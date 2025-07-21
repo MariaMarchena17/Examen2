@@ -189,7 +189,7 @@ body {
     border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     box-sizing: border-box;
     margin: 0 1rem;
 }
@@ -210,7 +210,7 @@ body {
 
 .name {
     display: block;
-    width: 250px;
+    width: 280px;
     display: flex;
     border-radius: 6px;
     border: 2px solid #373737;
@@ -218,13 +218,13 @@ body {
     text-align: left;
     outline: none;
     border: none;
-    color: #c5c5c5;
+    color: #000814;
     font-size: 16px;
 }
 
 .email {
     display: block;
-    width: 250px;
+    width: 280px;
     display: flex;
     border-radius: 6px;
     border: 2px solid #373737;
@@ -232,7 +232,21 @@ body {
     text-align: left;
     outline: none;
     border: none;
-    color: #c5c5c5;
+    color: #000814;
+    font-size: 16px;
+}
+
+.number {
+    display: block;
+    width: 280px;
+    display: flex;
+    border-radius: 6px;
+    border: 2px solid #373737;
+    padding: 15px 8px 15px 10px;
+    text-align: left;
+    outline: none;
+    border: none;
+    color: #000814;
     font-size: 16px;
 }
 
