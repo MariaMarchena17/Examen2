@@ -11,14 +11,14 @@ body {
 }
 
 header {
-  background-color: #004080;
+  background-color:  #1f63ae;
   color: white;
   padding: 1rem;
   text-align: center;
 }
 
 header.encabezado {
-  background-color: #003366;
+  background-color: #1f63ae;
   padding: 20px;
   color: white;
   text-align: center;
@@ -130,7 +130,7 @@ section {
     }
 
 footer {
-  background: #003366;
+  background: #1f63ae;
   color: white;
   text-align: center;
   padding: 10px;
