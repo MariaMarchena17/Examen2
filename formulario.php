@@ -7,9 +7,13 @@
 
 
     echo $Nombre;
+    echo "<br>";
     echo $Correo;
+    echo "<br>";
     echo $Telefono;
+    echo "<br>";
     echo $Mensaje;
-    
 
+    echo "<br><br>";
+    echo "<a href='index.html'><button>Vovler</button></a>";
 ?>
