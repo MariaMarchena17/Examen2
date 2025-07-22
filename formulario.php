@@ -15,5 +15,5 @@
     echo $Mensaje;
 
     echo "<br><br>";
-    echo "<a href='index.html'><button>Vovler</button></a>";
+    echo "<a href='index.html'><button>Volver</button></a>";
 ?>

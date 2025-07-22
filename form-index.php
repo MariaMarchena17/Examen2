@@ -9,6 +9,6 @@ echo "<hr>";
 echo "Datos registrados <br> Nombre: $name <br> Correo: $email <br> Numero: $num";
 
 echo "<br><br>";
-echo "<a href='index.html'><button>Vovler</button></a>";
+echo "<a href='index.html'><button>Volver</button></a>";
 
 ?>
